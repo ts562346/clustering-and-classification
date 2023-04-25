@@ -3,12 +3,12 @@
 Used the Iris dataset for clustering and classification. Created the following methods to implement clustering feature:
 
 findNearestCentroids(X, centroids):
-       inputs:  'X':          pandas df      A complete pandas dataframe of observations data.
+       inputs:  'X':          pandas df      A complete pandas dataframe of observations data. 
                 'centroids':  pandas df      A dataframe holding the K centroids (there are K rows), 
-                                             with the same column types as X.   
-       output:  'assign':     list of ints   A mapping of the data in X with the centroids in 'centroids'
+                                             with the same column types as X. <br />
+       output:  'assign':     list of ints   A mapping of the data in X with the centroids in 'centroids' 
                                              i.e., if row 42 in 'X' is closest to row 3 in 'centroids', 
-                                                   then element 42 in 'assign' is '3'.
+                                             then element 42 in 'assign' is '3'. 
 
 findCentroids( X, idx, k):
        inputs:  'X':          pandas df      A complete pandas dataframe of observations data.
